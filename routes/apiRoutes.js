@@ -1,6 +1,5 @@
 const notes=require('../db/db.json')
 const express = require("express");
-const { json } = require('express');
 const app = express();
 
 app.use(express.json())
