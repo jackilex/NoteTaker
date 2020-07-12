@@ -42,7 +42,7 @@ Alex Saint Victor
 ## Test
 Use the console.log and Postman to test the api methods
 
-![Alt text](https://imgur.com/ImwlT5O)
+![Alt text](https://i.imgur.com/ImwlT5O.png)
 
 [Back To The Top](#read-me-template)
 
