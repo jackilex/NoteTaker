@@ -1,5 +1,6 @@
 const notes=require('../db/db.json')
 const express = require("express");
+const uuid= require('uuid');
 const app = express();
 
 app.use(express.json())
@@ -19,12 +20,14 @@ app.get('/api/notes',(req,res)=>{
 app.post('/api/notes',(req,res)=>{
 if (!req.body.title || !req.body.text){
     //error
+    console.log(notes.length)
     return res.status(404).send('Must add a title and Notes to text area')
 }
+let newid=notes.length
     const thisNote={
     title: req.body.title,
     text:req.body.text,
-    id:req.body.id
+    id:newid+1,
     }
     notes.push(thisNote)
     res.json(notes)
