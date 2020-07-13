@@ -27,7 +27,7 @@ no installation required, the web app is deployed on Heroku follow link https://
 ---
 
 ## How To Use
-following the provided icon the use can add note and delete their saved notes 
+following the provided icon on the Web App the user can add note and delete their saved notes 
 
 [Back To The Top](#read-me-template)
 
